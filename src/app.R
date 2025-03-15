@@ -163,11 +163,11 @@ server <- function(input, output) {
     
     div(class = "card", style = "height: 100%;",
         div(class = "card-body", style = "padding: 15px; display: flex; align-items: center;",
-            # Left side - Icon
+            # Icon
             div(style = "margin-right: 20px;",
                 icon("chart-line", style = "font-size: 40px; color: #ffcd56;")
             ),
-            # Right side - Text content
+            # Text
             div(
               h3(style = "margin-top: 0; font-size: 22px; font-weight: bold; margin-bottom: 5px;", value),
               p(style = "color: #666; margin: 0; font-size: 16px;", "Total Net Sales")
@@ -182,11 +182,11 @@ server <- function(input, output) {
     
     div(class = "card", style = "height: 100%;",
         div(class = "card-body", style = "padding: 15px; display: flex; align-items: center;",
-            # Left side - Icon
+            # Icon
             div(style = "margin-right: 20px;",
                 icon("dollar", style = "font-size: 40px; color: #4bc0c0;")
             ),
-            # Right side - Text content
+            # Text
             div(
               h3(style = "margin-top: 0; font-size: 22px; font-weight: bold; margin-bottom: 5px;", value),
               p(style = "color: #666; margin: 0; font-size: 16px;", "Total Gross Profit")
@@ -202,11 +202,11 @@ server <- function(input, output) {
     
     div(class = "card", style = "height: 100%;",
         div(class = "card-body", style = "padding: 15px; display: flex; align-items: center;",
-            # Left side - Icon
+            # Icon
             div(style = "margin-right: 20px;",
                 icon("receipt", style = "font-size: 40px; color: #ff9f9f;")
             ),
-            # Right side - Text content
+            # Text
             div(
               h3(style = "margin-top: 0; font-size: 22px; font-weight: bold; margin-bottom: 5px;", value),
               p(style = "color: #666; margin: 0; font-size: 16px;", "Avg Ticket Sales")
@@ -279,7 +279,7 @@ server <- function(input, output) {
       )
   })
   
-  # top femae purchase
+  # top female purchase
   output$top_female_card <- renderUI({
     req(filtered_data())
     female_data <- filtered_data() |>
@@ -401,6 +401,7 @@ server <- function(input, output) {
                   h5("Normal", style = "margin-top: 10px;")
               )
           ),
+          # footer
           div(style = "text-align: center; margin-top: 20px; font-size: 14px; color: #6c757d;",
               p("Developed by Zoe Ren"),
               p("GitHub Repository: https://github.ubc.ca/mds-2024-25/DSCI_532_individual-assignment_zr2884"),
