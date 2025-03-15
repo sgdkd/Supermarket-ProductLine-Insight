@@ -32,7 +32,7 @@ conda activate PL-insight
 Run the Shiny Dashboard:
 
 ```{bash}
-Rscript app.R
+Rscript src/app.R
 ```
 
 **Click the link** beginning with http://127.0.0.1
