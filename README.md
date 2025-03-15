@@ -8,11 +8,11 @@ Zoe Ren
 
 **Target Audience**: Retail Business Analysts and Store Managers
 
-Understanding sales performance across different product lines is crucial for business strategies and profitability. This dashboard provides a straightforward view of supermarket sales, including key metrics such as net sales, gross profit, customer purchase behavior, and sales trends over time.
+Understanding sales performance across different product lines is crucial for developing effective business strategies and improving profitability. This dashboard provides a straightforward view of supermarket sales, including key metrics such as net sales, gross profit, customer purchase behavior, and sales trends over time.
 
-To address the challenge of managing diverse product categories and customer segments, the dashboard enables users to filter data by city and month, offering deeper insights into regional and seasonal variations. It also presents gender-based purchasing trends(interactive chart) and customer ratings, helping businesses tailor marketing strategies and improve customer experience.
+To address the challenge of managing diverse product categories and customer segments, the dashboard allows users to filter data by city and month, offering deeper insights into regional and seasonal variations. It also presents gender-based purchasing trends (via an interactive chart) and customer ratings, helping businesses tailor marketing strategies and enhance the customer experience.
 
-By integrating interactive charts, filters, and key performance indicators (KPIs), this tool empowers stake-holders to visually compare and analyze data ensures that businesses can make data-driven decisions efficiently, leading to better resource allocation and increased revenue.
+By integrating interactive charts, filters, and key performance indicators (KPIs), this tool empowers stakeholders to visually compare and analyze data, ensuring that businesses can make data-driven decisions efficiently, leading to better resource allocation and increased revenue.
 
 ## App description
 
@@ -20,9 +20,9 @@ Deployed in shinyapps.io 👉 <https://zr2884.shinyapps.io/Supermarket-ProductLi
 
 ![](img/dashboard.png)
 
-From Instructor Daniel, deploying via shinyapps.io means there's no need to record a video. Here is a brief introduction to this dashboard including addressing the challenging part.
+From Instructor Daniel, deploying via shinyapps.io means there is no need to record a video. Here is a brief introduction to this dashboard and an explanation of the Challenging tasks.
 
-The **two filters** on the left serve as **inputs**, controlling all other **outputs**. You can freely switch them to observe how the data changes. The **Sales by Gender** graph is an **interactive** chart. You can hover over different bars to see detailed numerical information through the tooltip.
+The **two filters on the left** serve as **inputs**, controlling all other **outputs**. You can freely switch them to observe how the data changes. The **Sales by Gender** graph is an **interactive** **chart**. You can hover over different bars to see details through the tooltip.
 
 ### **Challenging Tasks:**
 
