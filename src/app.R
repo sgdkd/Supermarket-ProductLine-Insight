@@ -8,7 +8,7 @@ library(plotly)
 library(shinyjs)
 
 # read data
-sales_data <- read.csv("data/raw/supermarket_sales.csv")
+sales_data <- read.csv("../data/raw/supermarket_sales.csv")
 sales_data$Date <- as.Date(sales_data$Date, format="%m/%d/%Y")
 sales_data$Hour <- as.POSIXlt(strptime(sales_data$Time, format="%H:%M"))$hour
 
