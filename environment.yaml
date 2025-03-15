@@ -1,0 +1,14 @@
+name: PL-insight
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - r-base
+  - r-shiny
+  - r-shinydashboard
+  - r-bslib
+  - r-ggplot2
+  - r-dplyr
+  - r-lubridate
+  - r-plotly
+  - r-shinyjs
